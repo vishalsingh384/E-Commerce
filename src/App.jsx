@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Cart from "./pages/Cart";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import ProductList from "./pages/ProductList";
@@ -8,11 +9,12 @@ import SingleProduct from "./pages/SingleProduct";
 const App = () => {
   return( 
   <div>
-    {/* <Home/> */}
+    <Home/>
     {/* <ProductList/> */}
     {/* <SingleProduct/> */}
     {/* <Register/> */}
-    <Login/>
+    {/* <Login/> */}
+    {/* <Cart/> */}
   </div>
   )
 };
